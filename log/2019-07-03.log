@@ -1,0 +1,440 @@
+2019-07-03 11:30:15,476 -- Auto_frame -- mail.py -- 37 -- INFO -- attach file E:\Auto_frame\report\report.html
+2019-07-03 11:30:20,508 -- Auto_frame -- mail.py -- 72 -- INFO -- 发送邮件"web自动化测试报告"成功! 收件人：aa2538778461@163.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2019-07-03 12:17:19,720 -- Auto_frame -- test_login_01.py -- 38 -- INFO -- 首页登录成功
+2019-07-03 12:17:30,294 -- Auto_frame -- test_login_01.py -- 40 -- INFO -- title不正确
+2019-07-03 12:17:41,050 -- Auto_frame -- test_login_01.py -- 40 -- INFO -- title不正确
+2019-07-03 12:17:44,265 -- Auto_frame -- mail.py -- 37 -- INFO -- attach file E:\Auto_frame\report\report.html
+2019-07-03 12:17:50,147 -- Auto_frame -- mail.py -- 72 -- INFO -- 发送邮件"web自动化测试报告"成功! 收件人：aa2538778461@163.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2019-07-03 13:08:34,696 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- 首页登录成功
+2019-07-03 13:08:45,541 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- title不正确
+2019-07-03 13:08:57,221 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- title不正确
+2019-07-03 13:17:11,404 -- Auto_frame -- test_login_01.py -- 47 -- INFO -- 点击下拉框成功-
+2019-07-03 13:17:24,704 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- 首页登录成功
+2019-07-03 13:17:36,171 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- title不正确
+2019-07-03 13:17:48,506 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- title不正确
+2019-07-03 13:30:41,727 -- Auto_frame -- test_login_01.py -- 47 -- INFO -- 点击下拉框页面成功-
+2019-07-03 13:30:56,793 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- 首页登录成功
+2019-07-03 13:31:07,975 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- title不正确
+2019-07-03 13:31:19,347 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- title不正确
+2019-07-03 13:34:15,716 -- Auto_frame -- test_login_01.py -- 47 -- INFO -- 点击下拉框页面成功-
+2019-07-03 13:34:36,646 -- Auto_frame -- test_login_01.py -- 57 -- INFO -- 点击下拉框页面成功-
+2019-07-03 13:34:50,212 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- 首页登录成功
+2019-07-03 13:35:02,098 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- title不正确
+2019-07-03 13:35:14,657 -- Auto_frame -- test_login_01.py -- 37 -- INFO -- title不正确
+2019-07-03 14:17:28,307 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/
+2019-07-03 14:17:28,308 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000002,"msg":"请登录后操作"}
+2019-07-03 14:22:26,276 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 14:22:26,277 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzQ5NDksImV4cCI6MTU2MjE3ODE0OSwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.kOyyEfSyQ6qwb9NVFbZ5KIc0DU6Y100p7FcOQ5gg3A8"}
+2019-07-03 14:22:35,149 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 14:22:35,150 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzQ5NTgsImV4cCI6MTU2MjE3ODE1OCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.9uzSIuDGyeYv9rn9D5640j2AVVTUMle2utuExKl2y5E"}
+2019-07-03 15:02:50,342 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:02:50,343 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzczNzMsImV4cCI6MTU2MjE4MDU3MywiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.LtBhvHKlM79hpFWyrVHgQvSVIpJkTGmv8D-ZcoC-vDo"}
+2019-07-03 15:07:53,714 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://ht.test.by-998.com
+2019-07-03 15:07:53,715 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+<!DOCTYPE html>
+<html style="height: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Bong网站管理系统-用户登录</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+   <link rel="stylesheet" href="/bower_components/AdminLTE/bootstrap/css/bootstrap.css">
+    <!-- Theme style -->
+     <link rel="stylesheet" href="/bower_components/AdminLTE/dist/css/AdminLTE.min.css">
+
+    <link rel="stylesheet" href="/css/onebase.css">
+  	<script src="/bower_components/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js"></script>
+  	<script src="/layer/layer.js"></script>
+  	<script src="/js/login_background.js"></script>
+  	<script src="/js/jquery.form.js"></script>
+	<body class="login-page admin-login-body-background" style="height: auto;">
+
+		<canvas width="1920" height="974"></canvas>
+		<div class="admin-login-box">
+		  <div class="login-logo">
+		      <a href="" class="login-logo-a"><b>BONG</b></a>
+		  </div>
+			<div class="login-box-body">
+		    	<p class="login-box-msg">请输入您的登录信息</p>
+				<form method="post" id="login_form" enctype="multipart/form-data" class="admin-login-form">
+			      <div class="form-group has-feedback">
+			          <input type="text" autocomplete="off" name="username"  value="" class="form-control" placeholder="请输入您的用户名">
+			           <span class="glyphicon glyphicon-user form-control-feedback"></span>
+			      </div>
+			      <div class="form-group has-feedback">
+			           <input type="password" name="password" value="" class="form-control" placeholder="请输入您的密码">
+			           <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+			      </div>
+				  <div class="form-group has-feedback">
+						<input type="text" autocomplete="off" name="google_secret" value="" class="form-control" placeholder="请输入google验证码">
+						<span class="glyphicon glyphicon-lock form-control-feedback"></span>
+				  </div>
+			      <div class="row">
+			        <div class="col-xs-8"></div>
+			        <!-- /.col -->
+			        <div class="col-xs-4"><input  type="checkbox" name="remember" class="" value="1"/>记住账户</div>
+			        <!-- /.col -->
+			      </div>
+			      <div class="social-auth-links text-center">
+
+			          <button id="login" class="btn btn-block btn-facebook ladda-button login-submit-button" data-style="slide-up">
+			              <span class="ladda-label">登 录</span>
+			          </button>
+
+			          <button type="reset" class="btn btn-block btn-google btn-flat">重置</button>
+			        </div>
+			    </form>
+
+
+		  </div>
+		</div>
+	<script type="text/javascript">
+		$(function(){
+
+		  $("#login").click(function () {
+
+		    var options = {
+		      url: "/index/login.html",
+		      type : 'POST',
+		      dataType : 'json',
+		      success : function(data) {
+		     	 // layer.alert(data.msg, {
+		       //    time: 20000,
+		       //    skin: 'layui-layer-molv', //该皮肤由layer.seaning.com友情扩展。关于皮肤的扩展规则，去这里查阅
+		       //    closeBtn: 0,
+		       //    anim: 4
+		       //  }, function(){
+		       if(data.code == 1){
+		       		window.location.href = data.url;
+		       }else{
+		     	 	layer.alert(data.msg, {
+			          	time: 20000,
+			          	skin: 'layui-layer-molv', //该皮肤由layer.seaning.com友情扩展。关于皮肤的扩展规则，去这里查阅
+			          	closeBtn: 0,
+			          	anim: 4
+			        })
+		       }
+		        // })
+		      },
+		  	};
+		      $("#login_form").ajaxForm(options);
+		   })
+
+		});
+
+		</script>
+	<div id="think_page_trace" style="position: fixed;bottom:0;right:0;font-size:14px;width:100%;z-index: 999999;color: #000;text-align:left;font-family:'微软雅黑';">
+    <div id="think_page_trace_tab" style="display: none;background:white;margin:0;height: 250px;">
+        <div id="think_page_trace_tab_tit" style="height:30px;padding: 6px 12px 0;border-bottom:1px solid #ececec;border-top:1px solid #ececec;font-size:16px">
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">基本</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">文件</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">流程</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">错误</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">SQL</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">调试</span>
+                    </div>
+        <div id="think_page_trace_tab_cont" style="overflow:auto;height:212px;padding:0;line-height: 24px">
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">请求信息 : 2019-07-03 15:07:56 HTTP/1.1 GET : ht.test.by-998.com/index/login.html</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">运行时间 : 0.055109s [ 吞吐率：18.15req/s ] 内存消耗：5,158.89kb 文件加载：196</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">查询信息 : 1 queries 0 writes </li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">缓存信息 : 0 reads,0 writes</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">配置加载 : 82</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">会话信息 : SESSION_ID=rbca07tkgvb6bm8duggf1g4b7b</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/houtai/index.php ( 0.59 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/start.php ( 0.73 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/base.php ( 2.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Loader.php ( 19.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/composer/autoload_namespaces.php ( 0.29 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/composer/autoload_psr4.php ( 3.39 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/composer/autoload_classmap.php ( 0.29 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/composer/autoload_files.php ( 7.44 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/guzzlehttp/promises/src/functions_include.php ( 0.17 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/guzzlehttp/promises/src/functions.php ( 12.22 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/guzzlehttp/psr7/src/functions_include.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/guzzlehttp/psr7/src/functions.php ( 24.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/symfony/polyfill-ctype/bootstrap.php ( 1.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/guzzlehttp/guzzle/src/functions_include.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/guzzlehttp/guzzle/src/functions.php ( 9.95 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/paragonie/random_compat/lib/random.php ( 7.79 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/symfony/polyfill-php56/bootstrap.php ( 1.52 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/customFunctions.php ( 1.99 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/abs.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/acos.php ( 1.04 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/acosh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/acot.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/acoth.php ( 0.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/acsc.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/acsch.php ( 0.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/argument.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/asec.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/asech.php ( 0.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/asin.php ( 1.01 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/asinh.php ( 0.91 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/atan.php ( 1.34 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/atanh.php ( 1.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/conjugate.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/cos.php ( 0.92 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/cosh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/cot.php ( 0.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/coth.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/csc.php ( 0.82 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/csch.php ( 0.84 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/exp.php ( 0.92 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/inverse.php ( 0.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/ln.php ( 0.94 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/log2.php ( 1.06 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/log10.php ( 1.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/negative.php ( 0.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/pow.php ( 1.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/rho.php ( 0.84 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/sec.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/sech.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/sin.php ( 0.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/sinh.php ( 0.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/sqrt.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/tan.php ( 1.21 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/tanh.php ( 1.11 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/functions/theta.php ( 1.25 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/operations/add.php ( 1.26 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/operations/subtract.php ( 1.28 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/operations/multiply.php ( 1.41 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/operations/divideby.php ( 1.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/complex/classes/src/operations/divideinto.php ( 1.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/adjoint.php ( 0.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/antidiagonal.php ( 0.68 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/cofactors.php ( 0.67 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/determinant.php ( 0.68 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/diagonal.php ( 0.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/identity.php ( 0.67 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/inverse.php ( 0.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/minors.php ( 0.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/trace.php ( 0.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/functions/transpose.php ( 0.67 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/operations/add.php ( 0.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/operations/directsum.php ( 0.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/operations/subtract.php ( 0.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/operations/multiply.php ( 0.88 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/operations/divideby.php ( 0.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/markbaker/matrix/classes/src/operations/divideinto.php ( 0.93 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/paragonie/sodium_compat/autoload.php ( 1.61 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/paragonie/sodium_compat/src/SodiumException.php ( 0.15 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/paragonie/sodium_compat/lib/namespaced.php ( 1.25 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/paragonie/sodium_compat/lib/sodium_compat.php ( 24.11 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/paragonie/sodium_compat/lib/constants.php ( 4.00 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/paragonie/sodium_compat/src/Compat.php ( 104.57 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/paragonie/sodium_compat/lib/php72compat.php ( 31.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/swiftmailer/swiftmailer/lib/swift_required.php ( 0.64 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php ( 2.02 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/topthink/think-captcha/src/helper.php ( 1.39 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/topthink/think-migration/src/config.php ( 0.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Console.php ( 21.22 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Error.php ( 3.59 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Config.php ( 8.47 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/convention.php ( 10.19 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/App.php ( 20.89 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Request.php ( 49.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/config.php ( 1.82 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Env.php ( 1.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/database.php ( 2.03 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/api.php ( 1.78 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/auth.php ( 1.72 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/backup.php ( 0.15 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/broadcast.php ( 1.10 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/captcha.php ( 0.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/chat.php ( 0.28 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/cloud.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/cors.php ( 0.32 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/encrypt.php ( 0.12 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/hashid.php ( 0.23 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/logger.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/mail.php ( 0.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/middlewares.php ( 3.41 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/phpsms.php ( 6.45 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/queue.php ( 1.36 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/sms.php ( 3.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/extra/udplog.php ( 0.34 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Hook.php ( 4.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/tags.php ( 1.37 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common.php ( 27.48 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/helper.php ( 18.25 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Debug.php ( 7.01 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/behavior/PhpSmsLog.php ( 1.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/toplan/phpsms/src/phpsms/Sms.php ( 21.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/toplan/task-balancer/src/TaskBalancer/Task.php ( 12.53 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Log.php ( 5.79 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/behavior/Container.php ( 2.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/required/container_alias.php ( 0.52 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/EventDispatcher.php ( 4.40 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/required/events.php ( 1.20 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/required/channels.php ( 1.37 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/broadcast/BroadcastManager.php ( 1.48 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/Contracts/Factory.php ( 0.11 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/broadcast/Driver/PusherBroadcaster.php ( 2.14 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/broadcast/Driver/Broadcaster.php ( 1.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/broadcast/Contracts/Broadcaster.php ( 0.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/pusher/pusher-php-server/src/Pusher.php ( 28.35 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/psr/log/Psr/Log/LoggerAwareTrait.php ( 0.39 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/vendor/psr/log/Psr/Log/LoggerAwareInterface.php ( 0.29 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/behavior/InitCommon.php ( 0.60 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Route.php ( 59.59 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Lang.php ( 6.95 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/lang/zh-cn.php ( 3.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/route.php ( 1.98 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/admin/extra/policy.php ( 0.10 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/admin/tags.php ( 1.09 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/admin/common.php ( 2.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/behavior/Middleware.php ( 10.01 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/admin/exceptions/Handler.php ( 1.41 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/exception/Handle.php ( 8.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/traits/controller/Jump.php ( 4.97 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/admin/behavior/Policy.php ( 0.74 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/access/Policy.php ( 6.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/model/Perm.php ( 6.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/model/Base.php ( 2.72 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Model.php ( 63.55 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/traits/model/SoftDelete.php ( 4.05 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Db.php ( 6.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/db/connector/Mysql.php ( 5.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/db/Connection.php ( 32.02 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/db/Query.php ( 90.79 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/db/builder/Mysql.php ( 2.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/db/Builder.php ( 29.95 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/model/Collection.php ( 3.20 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Collection.php ( 9.41 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/Pipeline.php ( 2.35 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/middlewares/RedirectIfAuthenticated.php ( 0.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/AuthManager.php ( 2.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/Contracts/Factory.php ( 0.16 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/foundation/Str.php ( 2.34 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/Driver/SessionGuard.php ( 3.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/traits/GuardHelpers.php ( 0.76 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/traits/UserProvider.php ( 2.08 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/traits/AttemptLogin.php ( 0.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/Contracts/Guard.php ( 0.35 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/Contracts/UserProvider.php ( 0.38 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/model/Admin.php ( 1.55 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/traits/model/ApiToken.php ( 0.38 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/traits/Authenticatable.php ( 1.14 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/access/Authorizable.php ( 0.44 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/model/admin/BasicTrait.php ( 3.29 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/model/admin/PolicyTrait.php ( 4.99 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Session.php ( 11.17 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Cookie.php ( 7.26 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/admin/controller/Index.php ( 5.99 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/admin/Login.php ( 0.92 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/admin/Base.php ( 1.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/Controller/Base.php ( 0.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Controller.php ( 6.20 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/application/common/traits/DateSearch.php ( 1.30 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/extend/bong/service/auth/traits/ThrottlesLogins.php ( 2.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/View.php ( 6.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/view/driver/Think.php ( 5.61 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Template.php ( 46.46 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/template/driver/File.php ( 3.70 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/runtime/temp/00f4b30531023fb251546bf24aed9d33.php ( 3.98 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Url.php ( 12.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Response.php ( 8.62 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/exception/HttpResponseException.php ( 0.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/debug/Html.php ( 4.27 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/kytest/php-kyqipai/thinkphp/library/think/Cache.php ( 6.17 KB )</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\behavior\PhpSmsLog @app_init [ RunTime:0.001557s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\behavior\Container @app_init [ RunTime:0.002328s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\behavior\InitCommon @app_init [ RunTime:0.000125s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ LANG ] /www/wwwroot/kytest/php-kyqipai/thinkphp/lang/zh-cn.php</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BIND ] 'admin'</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ ROUTE ] array (
+  'type' =&gt; 'module',
+  'module' =&gt; 
+  array (
+    0 =&gt; 'admin',
+    1 =&gt; 'index',
+    2 =&gt; 'login',
+  ),
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ HEADER ] array (
+  'cookie' =&gt; 'PHPSESSID=rbca07tkgvb6bm8duggf1g4b7b',
+  'connection' =&gt; 'keep-alive',
+  'accept-encoding' =&gt; 'gzip, deflate',
+  'user-agent' =&gt; 'python-requests/2.19.1',
+  'accept' =&gt; '*/*',
+  'host' =&gt; 'ht.test.by-998.com',
+  'content-type' =&gt; '',
+  'content-length' =&gt; '',
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ PARAM ] array (
+  's' =&gt; '/index/login.html',
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ DB ] INIT mysql</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ BEHAVIOR ] Run app\admin\behavior\Policy @module_init [ RunTime:0.015801s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ SESSION ] INIT array (
+  'id' =&gt; '',
+  'var_session_id' =&gt; '',
+  'prefix' =&gt; 'think',
+  'type' =&gt; '',
+  'auto_start' =&gt; true,
+  'httponly' =&gt; true,
+  'secure' =&gt; false,
+)</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ RUN ] app\admin\controller\index-&gt;login[ /www/wwwroot/kytest/php-kyqipai/application/admin/controller/Index.php ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ VIEW ] /www/wwwroot/kytest/php-kyqipai/houtai/../application/admin/view/index/login.html [ array (
+  0 =&gt; 'menu_list',
+  1 =&gt; 'request_path',
+  2 =&gt; 'admin',
+  3 =&gt; 'sHost',
+) ]</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ DB ] CONNECT:[ UseTime:0.000564s ] mysql:dbname=kyqpt;host=47.91.245.176;port=3306;charset=utf8</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ SQL ] SHOW COLUMNS FROM `gygy_admin_perm` [ RunTime:0.001266s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ SQL ] SELECT * FROM `gygy_admin_perm` WHERE `gygy_admin_perm`.`deleted_at` IS NULL [ RunTime:0.000905s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ SQL ] SHOW COLUMNS FROM `gygy_admin` [ RunTime:0.001028s ]</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                    </div>
+    </div>
+    <div id="think_page_trace_close" style="display:none;text-align:right;height:15px;position:absolute;top:10px;right:12px;cursor:pointer;"><img style="vertical-align:top;" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAAMDA////wAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQxMjc1MUJCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQxMjc1MUNCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDEyNzUxOUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDEyNzUxQUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAPAA8AAAIdjI6JZqotoJPR1fnsgRR3C2jZl3Ai9aWZZooV+RQAOw==" /></div>
+</div>
+<div id="think_page_trace_open" style="height:30px;float:right;text-align:right;overflow:hidden;position:fixed;bottom:0;right:0;color:#000;line-height:30px;cursor:pointer;">
+    <div style="background:#232323;color:#FFF;padding:0 6px;float:right;line-height:30px;font-size:14px">0.056486s </div>
+    <img width="30" style="" title="ShowPageTrace" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjVERDVENkZGQjkyNDExRTE5REY3RDQ5RTQ2RTRDQUJCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjVERDVENzAwQjkyNDExRTE5REY3RDQ5RTQ2RTRDQUJCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NURENUQ2RkRCOTI0MTFFMTlERjdENDlFNDZFNENBQkIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NURENUQ2RkVCOTI0MTFFMTlERjdENDlFNDZFNENBQkIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5fx6IRAAAMCElEQVR42sxae3BU1Rk/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">
+</div>
+
+<script type="text/javascript">
+    (function(){
+        var tab_tit  = document.getElementById('think_page_trace_tab_tit').getElementsByTagName('span');
+        var tab_cont = document.getElementById('think_page_trace_tab_cont').getElementsByTagName('div');
+        var open     = document.getElementById('think_page_trace_open');
+        var close    = document.getElementById('think_page_trace_close').children[0];
+        var trace    = document.getElementById('think_page_trace_tab');
+        var cookie   = document.cookie.match(/thinkphp_show_page_trace=(\d\|\d)/);
+        var history  = (cookie && typeof cookie[1] != 'undefined' && cookie[1].split('|')) || [0,0];
+        open.onclick = function(){
+            trace.style.display = 'block';
+            this.style.display = 'none';
+            close.parentNode.style.display = 'block';
+            history[0] = 1;
+            document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        }
+        close.onclick = function(){
+            trace.style.display = 'none';
+            this.parentNode.style.display = 'none';
+            open.style.display = 'block';
+            history[0] = 0;
+            document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        }
+        for(var i = 0; i < tab_tit.length; i++){
+            tab_tit[i].onclick = (function(i){
+                return function(){
+                    for(var j = 0; j < tab_cont.length; j++){
+                        tab_cont[j].style.display = 'none';
+                        tab_tit[j].style.color = '#999';
+                    }
+                    tab_cont[i].style.display = 'block';
+                    tab_tit[i].style.color = '#000';
+                    history[1] = i;
+                    document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+                }
+            })(i)
+        }
+        parseInt(history[0]) && open.click();
+        tab_tit[history[1]].click();
+    })();
+</script>
+</body>
+</html>
+
+2019-07-03 15:10:01,170 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:10:01,170 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzc4MDQsImV4cCI6MTU2MjE4MTAwNCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.KiWJclXPb9ShoZGMXAA29ZbxEMywLz1UCl28aQTtkZ0"}
+2019-07-03 15:10:01,171 -- Auto_frame -- test_user_api_01.py -- 18 -- DEBUG -- 0
+2019-07-03 15:12:23,713 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:12:23,714 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzc5NDcsImV4cCI6MTU2MjE4MTE0NywiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.ReCXD1qr6RBHEN2eyC5r1fxLO5c3TZbaEMQ4CiKX_vQ"}
+2019-07-03 15:12:23,714 -- Auto_frame -- test_user_api_01.py -- 20 -- DEBUG -- 0
+2019-07-03 15:13:00,768 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:13:00,768 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzc5ODQsImV4cCI6MTU2MjE4MTE4NCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.XVJiHkE-yd16CrJZ0dYtRTNw4GRgt2tCLbra0jI49VM"}
+2019-07-03 15:13:00,769 -- Auto_frame -- test_user_api_01.py -- 20 -- DEBUG -- 0
+2019-07-03 15:17:21,289 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:17:21,290 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzgyNDQsImV4cCI6MTU2MjE4MTQ0NCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.4d3f8Y5P_GSfJ2K7zqaowBitqHfGsAmZnCtiv6E7AgU"}
+2019-07-03 15:17:21,290 -- Auto_frame -- test_user_api_01.py -- 20 -- DEBUG -- 0
+2019-07-03 15:27:10,573 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:27:10,574 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzg4MzQsImV4cCI6MTU2MjE4MjAzNCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.7wPP1KoCH1wu7Bl0z_uYpp80A14srLR0JfJnpvmstKE"}
+2019-07-03 15:27:10,574 -- Auto_frame -- test_user_api_01.py -- 21 -- DEBUG -- 0
+2019-07-03 15:27:38,822 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:27:38,823 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzg4NjIsImV4cCI6MTU2MjE4MjA2MiwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.KFk9WoXM-39Q226V0fgYSLaDyMIqo4XP_j-7zOpyWOw"}
+2019-07-03 15:27:38,823 -- Auto_frame -- test_user_api_01.py -- 21 -- DEBUG -- 0
+2019-07-03 15:28:58,995 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:28:58,996 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzg5NDIsImV4cCI6MTU2MjE4MjE0MiwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.Jjg4CXwFhU2ShHafZGPCaBg_KURCghSexco9R938LQQ"}
+2019-07-03 15:28:58,997 -- Auto_frame -- test_user_api_01.py -- 21 -- DEBUG -- 0
+2019-07-03 15:41:25,302 -- Auto_frame -- client.py -- 35 -- DEBUG -- GET http://api.test.by-998.com/pub/login
+2019-07-03 15:41:25,303 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 15:41:46,434 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:41:46,434 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzk3MTAsImV4cCI6MTU2MjE4MjkxMCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.zLPAbjFxyau_nZ0C0Qs_SOmUr6-ItyYIUO9NYWb2jkQ"}
+2019-07-03 15:43:45,894 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:43:45,894 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzk4MjksImV4cCI6MTU2MjE4MzAyOSwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.oBBfk0Ul7UGGgXaCq46Pgqx-QDn28WS4HNKtHhNQsvw"}
+2019-07-03 15:44:54,836 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 15:44:54,837 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxMzk4OTgsImV4cCI6MTU2MjE4MzA5OCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.V8grJNmNhRjmBkwW_v-LnT2MoVTstz98rQ-cbfDKjn4"}
+2019-07-03 17:04:09,702 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:04:09,703 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:04:09,703 -- Auto_frame -- test_user_api_01.py -- 25 -- DEBUG -- 1000001
+2019-07-03 17:05:09,870 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:05:09,870 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:05:09,870 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 17:06:54,520 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:06:54,520 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:06:54,521 -- Auto_frame -- test_user_api_01.py -- 28 -- DEBUG -- 1000001
+2019-07-03 17:09:48,491 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:09:48,491 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDQ5OTIsImV4cCI6MTU2MjE4ODE5MiwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.jSwv3wXVIp3PrYjCm1gXzKcup6w1JIdyUFPe1SlI6eE"}
+2019-07-03 17:09:58,380 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:09:58,380 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDUwMDIsImV4cCI6MTU2MjE4ODIwMiwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.T-SGhvwo1Bkddfp-PrFM4F_02UAKFbTidBrVfuNctLg"}
+2019-07-03 17:10:27,084 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:10:27,085 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDUwMzAsImV4cCI6MTU2MjE4ODIzMCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.ZY9YyzpJl6yX2QyoHzfLe50pQNxiUJ__bpeIlue8ZdY"}
+2019-07-03 17:10:39,623 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:10:39,623 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDUwNDMsImV4cCI6MTU2MjE4ODI0MywiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.GL7CDeTQzla0GdyLVB7UnVx_PGfLffj-Mno2lkldtIQ"}
+2019-07-03 17:10:48,062 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:10:48,062 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDUwNTEsImV4cCI6MTU2MjE4ODI1MSwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.n-Piv_CNFtGlcd5qeTFMkuK4zbq5TMsTVAmD2ZVvO80"}
+2019-07-03 17:11:46,128 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:11:46,129 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:11:46,129 -- Auto_frame -- test_user_api_01.py -- 27 -- DEBUG -- 1000001
+2019-07-03 17:48:34,261 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:48:34,261 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:48:34,261 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 17:49:20,622 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:49:20,622 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:49:20,622 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 17:52:12,581 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:52:12,581 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDc1MzIsImV4cCI6MTU2MjE5MDczMiwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.m7z-TI-AeezV1rMvZ-YLxNmJ-H2IHiXi70bpoc1bJCs"}
+2019-07-03 17:53:14,546 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:53:14,547 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:53:14,547 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 17:55:45,973 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:55:45,973 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:55:45,974 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 17:56:46,505 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:56:46,506 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDc4MDYsImV4cCI6MTU2MjE5MTAwNiwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.rRY_eTEpd1MeI_uz3igbre1eOnnGBwvLkBLiKIrAq8g"}
+2019-07-03 17:57:23,609 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:57:23,609 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:57:23,609 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 17:57:34,009 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:57:34,009 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:57:34,009 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 17:57:47,865 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:57:47,865 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:57:47,865 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 17:58:47,246 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 17:58:47,246 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 17:58:47,246 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:07:31,022 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:07:31,023 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDg0NTAsImV4cCI6MTU2MjE5MTY1MCwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.2v8An0Wasa0HFXW8Zytgm-ZeEAmG4baPmR9SjJlNdiE"}
+2019-07-03 18:07:31,023 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 0
+2019-07-03 18:08:12,400 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:08:12,400 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDg0OTIsImV4cCI6MTU2MjE5MTY5MiwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.L_k9RzBjb0JDxc3GFrkAPDybfhsxk8b4FO7YQJydRQI"}
+2019-07-03 18:08:12,401 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 0
+2019-07-03 18:13:41,001 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:13:41,001 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:13:41,002 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:18:13,568 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:18:13,568 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:18:13,568 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:19:15,531 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:19:15,532 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:19:15,532 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:19:57,452 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:19:57,452 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDkxOTcsImV4cCI6MTU2MjE5MjM5NywiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.DS9-6Fy2ke99T594BZ3QIFGLtVvGrGqMmWDcY77jSuA"}
+2019-07-03 18:20:11,758 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:20:11,758 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDkyMTEsImV4cCI6MTU2MjE5MjQxMSwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.v30dCUcMn3ZrPB0sXow2hF3RpZpT9er1WgPRHfeZrxc"}
+2019-07-03 18:20:35,298 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:20:35,298 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:20:35,298 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:21:30,704 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:21:30,705 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:21:30,706 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:22:16,508 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:22:16,509 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDkzMzYsImV4cCI6MTU2MjE5MjUzNiwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.pvAA9oRcdnaz4yFk7AlakNKxpWmq9nBDwLDoXJAVOsg"}
+2019-07-03 18:22:45,496 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:22:45,496 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:22:45,496 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:22:57,023 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:22:57,024 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:22:57,024 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:23:32,870 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:23:32,870 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:23:32,870 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:24:02,068 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:24:02,069 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:24:02,069 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:25:18,204 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:25:18,204 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:25:18,204 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:25:56,801 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:25:56,801 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [401]>
+{"code":1000001,"msg":"请输入用户名"}
+2019-07-03 18:25:56,801 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 1000001
+2019-07-03 18:27:25,882 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:27:25,882 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDk2NDUsImV4cCI6MTU2MjE5Mjg0NSwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.p0avv8kDQkYpd2EraDH66-8xdnHIpJuj0acLx78HVGs"}
+2019-07-03 18:27:25,882 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 0
+2019-07-03 18:33:03,853 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:33:03,854 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNDk5ODMsImV4cCI6MTU2MjE5MzE4MywiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.9bJZEVm22IObyOgLqp_MSPVm9aS6Cb0D0rB5y7M0bhs"}
+2019-07-03 18:33:03,854 -- Auto_frame -- test_user_api_01.py -- 27 -- DEBUG -- 0
+2019-07-03 18:37:07,276 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:37:07,276 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNTAyMjcsImV4cCI6MTU2MjE5MzQyNywiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.9a_2suc6XcPVdF_XptuBpfX8XOSE5wZu-RZT5C2bw8k"}
+2019-07-03 18:37:07,276 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 0
+2019-07-03 18:46:28,980 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:46:28,981 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNTA3ODksImV4cCI6MTU2MjE5Mzk4OSwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.xpvRvCynepeIVKyjfqgpcXi853Jklz9SKIdwDzhpvjo"}
+2019-07-03 18:46:28,981 -- Auto_frame -- test_user_api_01.py -- 27 -- DEBUG -- 0
+2019-07-03 18:47:15,832 -- Auto_frame -- client.py -- 35 -- DEBUG -- POST http://api.test.by-998.com/pub/login
+2019-07-03 18:47:15,832 -- Auto_frame -- client.py -- 36 -- DEBUG -- 请求成功: <Response [200]>
+{"code":0,"msg":"操作成功","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjIxNTA4MzUsImV4cCI6MTU2MjE5NDAzNSwiaXNzIjoiYm9uZyIsInN1YiI6ODI1Nn0.OWJsF0c0z8LPwFH1ruJja9vUarwF6sjT_eGXqsw72IU"}
+2019-07-03 18:47:15,832 -- Auto_frame -- test_user_api_01.py -- 26 -- DEBUG -- 0

@@ -1,0 +1,26 @@
+2019-07-02 16:44:32,733 -- Auto_frame -- Test_login.py -- 41 -- INFO -- 首页登录成功
+2019-07-02 16:44:42,091 -- Auto_frame -- Test_login.py -- 43 -- INFO -- title不正确
+2019-07-02 16:44:51,483 -- Auto_frame -- Test_login.py -- 43 -- INFO -- title不正确
+2019-07-02 16:55:29,408 -- Auto_frame -- Test_login.py -- 41 -- INFO -- 首页登录成功
+2019-07-02 16:55:39,411 -- Auto_frame -- Test_login.py -- 43 -- INFO -- title不正确
+2019-07-02 16:55:49,825 -- Auto_frame -- Test_login.py -- 43 -- INFO -- title不正确
+2019-07-02 16:58:32,947 -- Auto_frame -- Test_login.py -- 41 -- INFO -- 首页登录成功
+2019-07-02 16:58:41,661 -- Auto_frame -- Test_login.py -- 43 -- INFO -- title不正确
+2019-07-02 16:58:50,277 -- Auto_frame -- Test_login.py -- 43 -- INFO -- title不正确
+2019-07-02 17:07:09,997 -- Auto_frame -- test_login_01.py -- 41 -- INFO -- 首页登录成功
+2019-07-02 17:07:18,297 -- Auto_frame -- test_login_01.py -- 43 -- INFO -- title不正确
+2019-07-02 17:07:26,661 -- Auto_frame -- test_login_01.py -- 43 -- INFO -- title不正确
+2019-07-02 17:15:49,909 -- Auto_frame -- test_login_01.py -- 41 -- INFO -- 首页登录成功
+2019-07-02 17:15:57,863 -- Auto_frame -- test_login_01.py -- 43 -- INFO -- title不正确
+2019-07-02 17:16:06,112 -- Auto_frame -- test_login_01.py -- 43 -- INFO -- title不正确
+2019-07-02 17:57:45,802 -- Auto_frame -- test_login_01.py -- 44 -- INFO -- 首页登录成功
+2019-07-02 17:57:54,895 -- Auto_frame -- test_login_01.py -- 46 -- INFO -- title不正确
+2019-07-02 17:58:04,805 -- Auto_frame -- test_login_01.py -- 46 -- INFO -- title不正确
+2019-07-02 18:01:40,058 -- Auto_frame -- test_login_01.py -- 44 -- INFO -- 首页登录成功
+2019-07-02 18:01:49,359 -- Auto_frame -- test_login_01.py -- 46 -- INFO -- title不正确
+2019-07-02 18:01:58,365 -- Auto_frame -- test_login_01.py -- 46 -- INFO -- title不正确
+2019-07-02 19:21:17,967 -- Auto_frame -- test_login_01.py -- 44 -- INFO -- 首页登录成功
+2019-07-02 19:21:26,975 -- Auto_frame -- test_login_01.py -- 46 -- INFO -- title不正确
+2019-07-02 19:21:35,315 -- Auto_frame -- test_login_01.py -- 46 -- INFO -- title不正确
+2019-07-02 19:21:37,475 -- Auto_frame -- mail.py -- 37 -- INFO -- attach file E:\Auto_frame\report\report.html
+2019-07-02 19:21:41,565 -- Auto_frame -- mail.py -- 72 -- INFO -- 发送邮件"web自动化测试报告"成功! 收件人：aa2538778461@163.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
