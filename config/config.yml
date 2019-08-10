@@ -1,8 +1,14 @@
-#测试环境web后台域名配置
-URL: http://ht.test.by-998.com
+#WEB环境后台域名配置
+#测试站后台
+test:
+  url: http://www.alafei.com/#/home
+
+
+
+#API环境配置
 
 #登录账号密码
-username: 12133446188
+username: 12133446101
 password: 123456
 
 #测试环境api地址
@@ -20,19 +26,23 @@ API_URL: http://api.test.by-998.com/
 #95棋牌环境api地址
 #API_URL: http://api.909595.com/
 
+#正式环境新api地址
+#API_URL: api.xmgames.bytechcdn.com/
 
 
 
-#日志配置
+#公共配置
+
+#日志
 log:
   file_name:
   backup: 5
   console_level: INFO
-  file_level: INFO
+  file_level: DEBUG
   pattern:
 
 
-#数据库配置
+#数据库
 #测试站
 db:
   host: 47.91.245.176

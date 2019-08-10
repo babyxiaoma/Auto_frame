@@ -1,6 +1,14 @@
-from utils.config import Config
+# -*- coding: utf-8 -*-
+
+# @Time    : 2019/8/8 14:02
+# @Author  : xiao hei ma
+# @Desc    : 获取token数据类
+# @File    : get_datas.py
+# @Software: PyCharm
+
+from config.config import config
 from utils.client import HTTPClient
-from utils.reader_db import Reader_Mysql
+
 
 class GETTOKENException(Exception):
     '''接收当获取token时出现异常抛出错误'''
@@ -8,16 +16,16 @@ class GETTOKENException(Exception):
 
 class GetData(object):
     def __init__(self):
-        self.c = Config()
-        self.API_URL = self.c.get('API_URL')
+        self.c = config()
+        self.API_URL = self.c.API_URL
         self.token = self.get_token()  #获取token为全局变量
 
     def get_token(self):
         '''获取登录接口api_token字典'''
         url =  self.API_URL + 'pub/login'
         data = {
-            'username':self.c.get('username'),
-            'password':self.c.get('password')
+            'username':self.c.username,
+            'password':self.c.password
         }
         try:
             res = HTTPClient(url=url,method='post').send(data=data)
@@ -59,7 +67,7 @@ class GetData(object):
         url = self.API_URL + 'activity/get_status_sign'
         res = HTTPClient(url=url, method='get').send(params=self.token).json()
         try:
-            Activity_id = {'Activity_id':res['data'][0]['Activity_id']}
+            Activity_id = {'id':res['data'][0]['Activity_id']}
             datas = dict(self.token, **Activity_id)
             return datas
         except Exception:
@@ -88,7 +96,11 @@ class GetData(object):
         url = self.API_URL + 'platform/games'
         res = HTTPClient(url=url, method='get').send().json()
         try:
-            dict_id = {'platform_played_id': res['data']['AGIN'][4]['code'],'platform_type':'KY'}
+            for i in res['data']['AGIN']:
+                if i['plat_code'] == 'KY':
+                    code = i['code']
+                    break
+            dict_id = {'platform_played_id': code,'platform_type':'KY'}
             datas = dict(self.token, **dict_id)
             return datas
         except Exception:
@@ -206,6 +218,6 @@ class GetData(object):
 if __name__ == '__main__':
     t = GetData()
     print(t.token)
-    print(t.get_user_balance)
+    print(t.get_activity_get_status_sign)
 
 

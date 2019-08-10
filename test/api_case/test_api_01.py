@@ -1,21 +1,28 @@
+# -*- coding: utf-8 -*-
+
+# @Time    : 2019/8/8 14:02
+# @Author  : xiao hei ma
+# @Desc    : 主运行入口类
+# @File    : test_api_01.py
+# @Software: PyCharm
+
 import sys
-sys.path.append(r'E:\Auto_frame')
+import os
+sys.path.append(os.path.split(os.path.dirname(os.path.abspath(__file__)))[0])
 import unittest
-from utils.config import REPORT_PATH, Config, DATA_PATH
+from config.config import config
 from utils.client import HTTPClient
 from utils.log import logger
-from utils.HTMLTestRunner import HTMLTestRunner
-from utils.assertion import assertHTTPCode,assertMysqldata
+from utils.assertion import Error
 from utils.file_reader import ExcelReader
-import json
 from utils.get_excel_data import Excel_Data
-from utils.mail import Email
 from utils.reader_db import Reader_Mysql
 
 
-class TestUserAPI(unittest.TestCase):
-    excel_path = DATA_PATH + '\\api.xls'
-    API_UTL = Config().get('API_URL')
+class Test_API(unittest.TestCase):
+    c = config()
+    e = Error()
+    excel_path = c.DATA_PATH + '\\api.xls'
     excel_data = Excel_Data()
     reader_sql = Reader_Mysql()
 
@@ -25,11 +32,11 @@ class TestUserAPI(unittest.TestCase):
         for d in datas:
             if d['run'].lower() == 'yes':
                 with self.subTest(data=d['describe']):
-                    url = self.API_UTL + d['api']
+                    url = self.c.API_URL + d['api']
                     method = d['method']
                     data = d['data']
                     sql_value = d['sql_value']
-                    expect_data = d['expect_data']
+                    expect_data = str(d['expect_data'])
                     pd_id = d['pd_id']
                     # 判断excel上面的data不为空时执行获取datas,否则执行不传data的get方法
                     if data != '':
@@ -43,13 +50,13 @@ class TestUserAPI(unittest.TestCase):
 
                     logger.debug('响应code字段:%s' % res['code'])
                     # 判断响应json数据中的code字段
-                    assertHTTPCode(res)
+                    self.e.assertHTTPCode(res)
                     #判断sql结果和预期结果
                     if sql_value:
                         if pd_id:
                             expect_data = self.excel_data.get_coin()   #替换预期结果为账号最新余额coin字段
                         sql = self.reader_sql.get_new_date_all_activity_id(sql_value)
-                        assertMysqldata(sql,expect_data)
+                        self.e.assertMysqldata(sql,expect_data)
 
 
 

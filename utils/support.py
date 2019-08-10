@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+
+# @Time    : 2019/8/8 14:02
+# @Author  : xiao hei ma
+# @Desc    : 支持加密类
+# @File    : support.py
+# @Software: PyCharm
+
 """一些支持方法，比如加密,暂时项目不用"""
 
 import hashlib

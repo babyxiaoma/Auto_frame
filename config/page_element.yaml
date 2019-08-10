@@ -1,0 +1,15 @@
+#首次界面弹窗公告
+close_button: //*[@id="app"]/div/div[7]/div/div[1]/button/i
+
+#登录元素
+
+#用户名输入框元素
+username_loc: //*[@id="app"]/div/div[2]/div/form/div[1]/input
+#密码输入框元素
+password_loc: //*[@id="app"]/div/div[2]/div/form/div[2]/input
+#验证码输入框元素
+code_loc: //*[@id="app"]/div/div[2]/div/form/div[3]/input
+#登录按钮元素
+login_loc: //*[@id="app"]/div/div[2]/div/form/input[1]
+#注册按钮元素
+registered_loc: //*[@id="app"]/div/div[2]/div/form/input[2]

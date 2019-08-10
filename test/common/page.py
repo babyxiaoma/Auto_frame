@@ -1,4 +1,4 @@
-from test.common.browser import Browser
+from test.common.basepage import Browser
 import time
 
 class Page(Browser):

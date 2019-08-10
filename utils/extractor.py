@@ -1,4 +1,12 @@
-'''抽取器,从响应结果中抽取部分数据'''
+# -*- coding: utf-8 -*-
+
+# @Time    : 2019/8/8 14:02
+# @Author  : xiao hei ma
+# @Desc    : json抽取器类
+# @File    : extractor.py
+# @Software: PyCharm
+
+
 import json
 import jmespath
 
@@ -12,6 +20,8 @@ class JMESPathExtractor(object):
             return jmespath.search(expression=query,data=json.loads(body))
         except Exception as e:
             raise ValueError('无效查询:' + query + ':' +str(e))
+
+
 
 if __name__ == '__main__':
     from utils.client import HTTPClient

@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+
+# @Time    : 2019/8/8 14:02
+# @Author  : xiao hei ma
+# @Desc    : 获取api_data类
+# @File    : get_execle_data.py
+# @Software: PyCharm
+
 from utils.get_datas import GetData
 
 

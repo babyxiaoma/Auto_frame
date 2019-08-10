@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+
+# @Time    : 2019/8/8 14:02
+# @Author  : xiao hei ma
+# @Desc    : HTTP请求类
+# @File    : client.py
+# @Software: PyCharm
+
 import requests
 from utils.log import logger
 
@@ -35,21 +43,23 @@ class HTTPClient(object):
     def send(self, params=None, data=None, **kwargs):
         response = self.session.request(url=self.url,method=self.method, params=params, data=data, **kwargs)
         response.encoding = 'utf-8'
-        logger.info('{0} {1}'.format(self.method, self.url))
-        logger.info('请求成功: {0}'.format(response.text))
+        logger.debug('{0} {1}'.format(self.method, self.url))
+        logger.debug('请求成功: {0}'.format(response.text))
         return response
 
 
 
 if __name__ == '__main__':
 
-    url = 'http://api.test.by-998.com/user/balance'
-    data = {'api_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjI2NDM1NzAsImV4cCI6MTU2MjY4Njc3MCwiaXNzIjoiYm9uZyIsInN1YiI6ODM4OH0.sEbrbx_9E5mzuPYSGhoZzHcNPugy457kn2MDGt8EViQ'}
+    url = 'http://api.test.by-998.com/platform/games'
+    data = {'api_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjU0MDIwODcsImV4cCI6MTU2NTQ0NTI4NywiaXNzIjoiYm9uZyIsInN1YiI6OH0.48cCKOG4-2x_rA1vDqmpdu7jgI4tJx5cfxDx035w4pQ'}
 
     # print(url,data)
-    h = HTTPClient(url=url,method='get').send(params=data).json()
-    # for i in h['data']:
-    #     if i['activity_name'] == '黄金轮盘':
-    #         print(i['id'])
-    coin = h['data']['coin']
-    print(coin,type(coin))
+    h = HTTPClient(url=url,method='get').send().json()
+    print(h)
+    for i in h['data']['AGIN']:
+        if i['plat_code'] == 'KY':
+            code = i['code']
+            break
+    # print(coin,type(coin))
+    print(code)

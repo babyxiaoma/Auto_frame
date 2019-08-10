@@ -1,9 +1,18 @@
+# -*- coding: utf-8 -*-
+
+# @Time    : 2019/8/8 14:02
+# @Author  : xiao hei ma
+# @Desc    : 读取配置文件类
+# @File    : file_reader.py
+# @Software: PyCharm
+
 import yaml
 import os
 import xlrd
-from xlutils.copy import copy
+
 
 class YamlReader(object):
+    '''读取yaml文件内容,返回list'''
     def __init__(self,yaml):
         if os.path.exists(yaml):
             self.yaml = yaml
@@ -69,10 +78,11 @@ class ExcelReader(object):
 
             #如果self.title_line为True,则组成dict,否则组成list
             if self.title_line:
-                title = s.row_values(0)  #首行为title
+                keys = s.row_values(0)  #首行为title
                 for col in range(1,s.nrows):
                     #依次遍历其余行,与首行组成dict,拼到self._data中
-                    self._data.append(dict(zip(title,s.row_values(col))))
+                    values = s.row_values(col)
+                    self._data.append(dict(zip(keys,values)))
             else:
                 for col in range(0,s.nrows):
                     self._data.append(s.row_values(col))
@@ -85,7 +95,7 @@ if __name__ == '__main__':
     # y = YamlReader('E:\Auto_frame\config\config.yml')
     # print(y.data)
 
-    from utils.config import DATA_PATH
+    from config.config import DATA_PATH
     x = ExcelReader(DATA_PATH + '\\api.xls')
     # x = ExcelReader('E:\Auto_frame\data\data.xls', title_line=False)
-    # print(x.data)
+    print(x.data)

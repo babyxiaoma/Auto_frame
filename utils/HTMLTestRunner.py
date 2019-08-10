@@ -184,6 +184,7 @@ class Template_mixin(object):
     DEFAULT_TITLE = 'Unit Test Report'
     DEFAULT_DESCRIPTION = ''
     DEFAULT_TESTER = 'xiao hei'
+    DEFAULT_USERNAME = ''
 
     # ------------------------------------------------------------------------
     # HTML Template
@@ -665,7 +666,7 @@ class _TestResult(TestResult):
 class HTMLTestRunner(Template_mixin):
     """
     """
-    def __init__(self, stream=sys.stdout, verbosity=1, title=None, description=None,tester=None):
+    def __init__(self, stream=sys.stdout, verbosity=1, title=None, description=None,tester=None,test_user=None):
         self.stream = stream
         self.verbosity = verbosity
         if title is None:
@@ -680,6 +681,10 @@ class HTMLTestRunner(Template_mixin):
             self.tester = self.DEFAULT_TESTER
         else:
             self.tester = tester
+        if test_user is None:
+            self.test_user = self.DEFAULT_USERNAME
+        else:
+            self.test_user = test_user
 
         self.startTime = datetime.datetime.now()
 
@@ -729,6 +734,7 @@ class HTMLTestRunner(Template_mixin):
             (u'开始时间', startTime),
             (u'运行时长', duration),
             (u'状态', status),
+            (u'测试账号',self.test_user)
         ]
 
 
@@ -766,7 +772,8 @@ class HTMLTestRunner(Template_mixin):
             title = saxutils.escape(self.title),
             parameters = ''.join(a_lines),
             description = saxutils.escape(self.description),
-            tester = saxutils.escape(self.tester)
+            tester = saxutils.escape(self.tester),
+            test_user = saxutils.escape(self.test_user)
         )
         return heading
 

@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+
+# @Time    : 2019/8/8 14:02
+# @Author  : xiao hei ma
+# @Desc    : 邮件类
+# @File    : mail.py
+# @Software: PyCharm
+
 import re
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -29,7 +37,7 @@ class Email(object):
         self.msg = MIMEMultipart('related')
 
     def _attach_file(self,att_file):
-        att = MIMEText(open('%s' % att_file,'rb').read(),'plain','utf-8')
+        att = MIMEText(open(att_file,'rb').read(),'plain','utf-8')
         att["Content-Type"] = 'application/octet-stream'
         file_name = re.split(r'[\\|/]', att_file)
         att["Content-Disposition"] = 'attachment; filename="%s"' % file_name[-1]
